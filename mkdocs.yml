@@ -35,8 +35,6 @@ plugins:
   - search
   - git-revision-date:
       enabled_if_env: CI
-  - tags:
-      tags_file: category.md
 
 markdown_extensions:
   - attr_list
